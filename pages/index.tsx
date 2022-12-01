@@ -7,7 +7,7 @@ export default function Home() {
     // parent container
     <div className=" ml-4 mt-4">
       {/* Profile Sec Starts Here */}
-      <div className="   flex flex-col gap-4 mb-12">
+      <div className="container-wrapper">
         <h1 className="font-semibold	 text-3xl">My Profile</h1>
 
         {/* avatar and <button></button> */}
@@ -27,11 +27,11 @@ export default function Home() {
 
       <div className="max-w-2xl pr-6">
         {/* Personal Info sec start Here */}
-        <div className="flex flex-col gap-4 mb-14 ">
-          <h2 className="text-xl  ml-1 font-medium">Personal info</h2>
+        <div className="container-wrapper">
+          <h2 className="h2-wrapper">Personal info</h2>
 
           {/* input group 1 */}
-          <div className="flex gap-2  flex-col  md:flex-row">
+          <div className="input-container-wrapper ">
             <div className=" md:flex-1 ">
               <Input
                 label="First name"
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
           {/* input group 2 */}
-          <div className=" ">
+          <div>
             <div className=" w-full md:w-1/2 md:pr-1">
               <Input
                 label="Email"
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
           </div>
           {/* input group 3 */}
-          <div className="flex gap-2  flex-col  md:flex-row">
+          <div className="input-container-wrapper ">
             <div className=" md:flex-1 ">
               <Input
                 label="Username"
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
           {/* input group 4 */}
-          <div className="">
+          <div>
             <div className="h-28">
               <Input
                 label="Bio"
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
           </div>
           {/* input group 5 */}
-          <div className="flex gap-2  flex-col  md:flex-row">
+          <div className="input-container-wrapper ">
             <div className=" md:flex-1 ">
               <Input
                 label="Job title"
@@ -153,10 +153,10 @@ export default function Home() {
         {/* Personal Info sec ends Here */}
 
         {/* social sec start Here */}
-        <div className="flex flex-col mb-4 gap-4">
-          <h2 className="text-xl ml-1 font-medium	">Social profiles</h2>
+        <div className="container-wrapper">
+          <h2 className="h2-wrapper">Social profiles</h2>
 
-          <div className="">
+          <div>
             <Input
               label="LinkedIn"
               placeholder="LinkedIn URL"
@@ -170,7 +170,7 @@ export default function Home() {
             ></Input>
           </div>
 
-          <div className="  ">
+          <div>
             <Input
               label="Twitter"
               placeholder="Twitter URL"
@@ -184,7 +184,7 @@ export default function Home() {
             ></Input>
           </div>
 
-          <div className=" ">
+          <div>
             <Input
               label="Facebook"
               placeholder="Facebook URL"

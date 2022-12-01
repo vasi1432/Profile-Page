@@ -9,3 +9,15 @@
     @apply font-sans;
   }
 }
+
+@layer components {
+  .container-wrapper {
+    @apply flex flex-col  gap-4 mb-12;
+  }
+  .input-container-wrapper {
+    @apply flex gap-2  flex-col  md:flex-row;
+  }
+  .h2-wrapper {
+    @apply text-xl  font-medium;
+  }
+}
